@@ -6,7 +6,7 @@ module.exports = [
 		},
 	],
 	[
-		"@mr-hope/vuepress-plugin-last-update",
+		"@vuepress/last-updated",
 		{
 			transformer: (timestamp, lang) => {
 				const moment = require("moment");
@@ -30,6 +30,7 @@ module.exports = [
 			ga: "UA-148212082-1",
 		},
 	],
+	["vuepress-plugin-dehydrate"],
 	[
 		"@vuepress/active-header-links",
 		{

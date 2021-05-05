@@ -1,10 +1,10 @@
 ---
-title: Creating backups
+title: Backups
 description: Backups can save you a lot of headache in case something happens to your installation or device.
 lang: en-US
 ---
 
-# Creating backups
+# Backups
 
 Backups are inter-compatible between **Tachiyomi** versions, with a few exceptions listed under [forks information](#forks-information).
 
@@ -17,7 +17,7 @@ Backups can hold the following information:
 1. **Manga information** such as Author, Artist, Date Added to Library, Selected Viewer, etc.
 
 ::: guide
-You can do this by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_backup"/> and then selecting **Create backup** and select a location to save it. 
+You can do this by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_backup"/> and then selecting **Create backup** and select a location to save it.
 :::
 
 Legacy Backups can hold the following information:
@@ -28,7 +28,7 @@ Legacy Backups can hold the following information:
 1. **Reading history**
 
 ::: guide
-You can do this by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_backup"/> and then selecting **Create legacy backup** and select a location to save it. 
+You can do this by going to <Navigation item="more"/> → <Navigation item="settings"/> → <Navigation item="settings_backup"/> and then selecting **Create legacy backup** and select a location to save it.
 :::
 
 Legacy Backups are intended for versions of Tachiyomi, or forks based on versions, older than 0.10.7.
@@ -36,9 +36,9 @@ Legacy Backups are intended for versions of Tachiyomi, or forks based on version
 
 ## Restoring
 
-Restoring is done from the <Navigation item="settings_backup"/> settings. 
+Restoring is done from the <Navigation item="settings_backup"/> settings.
 
-To restore a backup without issues be sure to: 
+To restore a backup without issues be sure to:
 
 * Log into the <Navigation item="settings_tracking"/> services that you previously used.
 
@@ -77,7 +77,3 @@ This fork can only restore **MangaDex** entries in a backup. If there are entrie
 These forks have some built-in extensions, namely: **E-Hentai**, **Hitomi.la**, and **nHentai** for <Navigation item="tachiyomiaz" /> and <Navigation item="tachiyomieh" /> while <Navigation item="tachiyomisy" /> only has **E-Hentai**.
 
 Titles from said extensions will not be restored when restoring a backup made by these forks to standard Tachiyomi. It is possible to restore titles to these forks, but it is not possible to back them up out of these forks.
-
-### <img class="forkIconBefore" src="/assets/forks_logo-neko.png" width="24" height="24" /> [Neko](/forks/Neko) and <img class="forkIconBefore" src="/assets/forks_logo-j2k.png" width="24" height="24" /> [J2k](/forks/j2k)
-
-These forks can only restore legacy backups, as they have not made the changes needed to support the new backup yet.
